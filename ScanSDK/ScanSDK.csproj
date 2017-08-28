@@ -91,7 +91,6 @@
   </Target>
   -->
   <PropertyGroup>
-    <PreBuildEvent>cd "$(SolutionDir)"
-update_version_info.bat "$(ProjectDir)AssemblyVersion.cs"</PreBuildEvent>
+    <PreBuildEvent></PreBuildEvent>
   </PropertyGroup>
 </Project>
